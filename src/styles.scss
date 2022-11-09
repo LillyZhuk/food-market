@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "assets/styles/app";
+
+@font-face {
+  font-family: Poppins-Bold;
+  src: url(assets/styles/fonts/Poppins-Bold.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: Poppins-Medium;
+  src: url(assets/styles/fonts/Poppins-Medium.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: Poppins-SemiBold;
+  src: url(assets/styles/fonts/Poppins-SemiBold.ttf) format("opentype");
+}

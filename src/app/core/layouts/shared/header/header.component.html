@@ -1,0 +1,51 @@
+<div class="header-wrapper">
+  <div class="top-bar__container d-flex justify-content-between">
+    <div class="top-bar__right d-flex">
+      <a>Chat with us</a>
+      <p>+420 336 775 664</p>
+      <p>info@freshnesecom.com</p>
+    </div>
+
+    <div class="top-bar__left d-flex">
+      <a>About us</a>
+      <a>Careers</a>
+    </div>
+  </div>
+
+  <div class="center-container d-flex justify-content-between">
+    <img src="assets/images/logo.svg" alt="logo">
+
+    <div class="search-sort-container">
+      <div class="input-group">
+          <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categories
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Categories</a></li>
+            <li><a class="dropdown-item" href="#">Products</a></li>
+            <li><a class="dropdown-item" href="#">Blog</a></li>
+          </ul>
+        <div class="border-container"></div>
+        <input type="text" class="form-control search" placeholder="Search products, categories ...">
+        <img class="input-group-text" alt="search" src="assets/images/search.svg">
+      </div>
+    </div>
+
+    <div class="user-info-container d-flex align-items-center">
+      <div class="d-flex align-content-center">
+        <button class="log-in-button">Log in</button>
+      </div>
+      <ng-container *ngIf="isUserLoggedIn">
+        <img src="assets/images/heart.svg" alt="heart">
+        <img src="assets/images/user.svg" alt="user">
+      </ng-container>
+      <img src="assets/images/basket.svg" alt="basket">
+    </div>
+  </div>
+</div>
+<nav class="navbar navbar-expand-lg">
+  <a class="nav-link" aria-current="page" href="#">Fruits and vegetables</a>
+  <a class="nav-link" aria-current="page" href="#">Meat and fish</a>
+  <a class="nav-link" aria-current="page" href="#">Drinks</a>
+  <a class="nav-link" aria-current="page" href="#">Pharmacy</a>
+</nav>

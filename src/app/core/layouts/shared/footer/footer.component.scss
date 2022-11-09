@@ -1,0 +1,21 @@
+@import "src/assets/styles/variables";
+@import "src/assets/styles/custom/links";
+
+.footer-container {
+  padding: 64px 45px;
+
+  &_column {
+    &-title {
+      color: $primary;
+      font: 600 18px/27px "Poppins-SemiBold";
+    }
+
+    &-item {
+      @include links();
+
+      &:not(:last-of-type) {
+        margin-bottom: 16px;
+      }
+    }
+  }
+}

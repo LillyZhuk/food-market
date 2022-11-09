@@ -1,0 +1,8 @@
+@import "src/assets/styles/variables";
+
+@mixin links($font-size: 14px,  $line-height: 19px, $color: $secondary, $text-decoration: none) {
+  text-decoration: $text-decoration !important;
+  color: $color !important;
+  font: 400 $font-size "Open Sans", sans-serif;
+  line-height: $line-height;
+}

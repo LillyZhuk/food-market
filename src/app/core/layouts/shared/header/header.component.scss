@@ -1,0 +1,133 @@
+@import "src/assets/styles/variables";
+@import "src/assets/styles/custom/links";
+
+.header-wrapper {
+  height: 178px;
+  padding: 0 45px;
+
+  .top-bar {
+    &__container {
+      height: 48px;
+      padding: 16px 0;
+      width: 100%;
+      border-bottom: 1px solid rgba($primary, 0.05);
+    }
+
+    &__right,
+    &__left {
+      gap: 30px;
+    }
+  }
+
+  .center-container {
+    padding: 40px 0;
+
+    .search-sort-container {
+      .input-group {
+        width: 500px;
+        height: 42px;
+        border-radius: 12px;
+        border: 1px solid $primary-500;
+        background: $primary-200;
+
+        .btn {
+          border: none;
+          font: 700 15px/17px 'Poppins-Bold';
+          color: $primary;
+          background: url("../../../../../assets/images/arrow-down.svg") no-repeat right 24px center;
+          width: 170px;
+          padding: 10px 24px 9px 16px;
+          text-align: start;
+
+          &::after {
+            display: none;
+          }
+        }
+
+        .dropdown-menu {
+          padding: 11px 17px;
+          width: 174px;
+          background: $primary-200;
+          border: 1px solid $primary-500;
+          border-radius: 12px;
+
+          li:not(:last-of-type) {
+            border-bottom: 1px solid $primary-500;
+          }
+
+          .dropdown-item {
+            font:700 15px/22px 'Poppins-Bold';
+            color: $primary !important;
+            padding: 8px 0 !important;
+
+            &:active {
+              background-color: $primary-500;
+            }
+          }
+        }
+
+        .border-container {
+          margin: 11px 0;
+          width: 1px;
+          background: $primary-500;
+        }
+
+        .search {
+          background: transparent;
+          border: none;
+          @include links();
+          color: $primary-600 !important;
+          padding: 11px 24px 12px;
+          &:focus {
+            box-shadow: none;
+          }
+        }
+
+        img {
+          background: transparent;
+          border: none;
+          padding: 13px;
+        }
+      }
+    }
+
+    .user-info-container {
+      gap: 40px;
+
+      .log-in-button {
+        border: none;
+        background: transparent;
+        width: 45px;
+        padding: 0;
+        font: 700 normal 15px/22px 'Poppins-Bold';
+        outline: none;
+      }
+      img {
+        height: 24px;
+        width: 24px;
+      }
+    }
+  }
+}
+
+.navbar {
+  padding: 16px 45px;
+  background-color: $primary-200;
+
+  .nav-link {
+    font:500 15px/22px 'Poppins-Medium';
+    color: $primary !important;
+
+    &:not(:last-of-type) {
+      margin-right: 40px;
+    }
+  }
+}
+
+a {
+  @include links(12px, 16px);
+}
+
+p {
+  @include links(12px, 16px, $primary);
+}

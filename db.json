@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "user@user.com",
+      "password": "qwerty1!",
+      "firstName": "Test",
+      "lastName": "User",
+      "role": "admin",
+      "dateOfBirth": null,
+      "phone": "0554443322"
+    }
+  ],
+  "blogs": [
+      {
+          "id": 1,
+          "author": "User User",
+          "dateOfCreation": "16.12.2012",
+          "title": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel accusantium autem beatae facere provident aut consequatur nobis sit sint amet?",
+          "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, enim neque amet earum molestias quo qui deserunt sequi corporis impedit minima ratione, vel, ducimus iure. Expedita, minus labore! Ad est quisquam illum totam minima. Nam impedit est adipisci ad voluptates, id aut maxime tempore animi dolorem veniam quis quos numquam minus iusto unde cupiditate odit amet hic ducimus obcaecati. Vitae neque aliquam dolorem vel quos at perferendis amet sunt quaerat cupiditate necessitatibus aliquid maxime adipisci repellat, hic, aspernatur velit culpa laudantium, illo nisi. Harum officia odit, quo culpa obcaecati voluptatem eligendi asperiores eveniet et consequuntur ut error est molestias expedita eum vero, exercitationem in iusto maiores nesciunt esse aperiam repellendus id! Voluptate velit sint eveniet ratione delectus id ullam, itaque provident aut sunt qui iure? Recusandae totam quo aliquid provident illo omnis nemo assumenda dolorem eligendi, ex eveniet porro, deserunt atque sapiente, nam temporibus itaque voluptas numquam vero ullam laboriosam. Aperiam harum officiis rem nemo deserunt, ratione accusamus iusto ex unde veniam ullam corporis adipisci eos pariatur beatae consectetur est vero accusantium enim doloribus. Minima reprehenderit laudantium id totam temporibus blanditiis aliquid illo modi, nulla tempora animi deleniti doloremque quasi porro eius dolor ut provident. Dicta nobis, omnis, sit incidunt praesentium ratione repellat repudiandae recusandae beatae doloribus harum et ea? Quia maxime fugiat, eaque delectus velit obcaecati, voluptas, cum provident repudiandae exercitationem tempore corporis fugit! Corporis, dolorem ullam laborum illum, iste modi nostrum autem architecto veritatis assumenda incidunt laboriosam blanditiis officiis, hic consequatur cumque neque tenetur saepe a rerum inventore.",
+          "images": [
+              {
+                  "id": 1,
+                  "src": "https://media-cdn.tripadvisor.com/media/photo-s/19/bc/60/73/flatlay.jpg"
+              }
+          ],
+          "comments": [
+              {
+                  "id": 1,
+                  "author": "Some User",
+                  "text": "Hi everyone, we have been working hard with the team bringing a new articles. It has passed a few months till we released it in case of traveling and shooting, hopefully you’ll love it."
+              }
+          ]
+      }
+  ],
+  "products": {
+      "fruitAndVegetables": [
+          {
+              "id": 1,
+              "title": "Carrots from Tommissy Farm",
+              "rating": 4,
+              "description": "Carrots from Tomissy Farm are one of the best on the market. Tomisso and his family are giving a full love to his Bio products. Tomisso’s carrots are growing on the fields naturally.",
+              "sku": 76645,
+              "category": "vegetable",
+              "stock": "In Stoke",
+              "farm": "Grocery Tarm Farm",
+              "freshness": 2,
+              "delivery": 5,
+              "deliveryArea": "Ukraine",
+              "price": 36.23,
+              "fullDescription": "We work hard to ensure that the fruit and vegetables we sell are fresh and high in quality. If we don’t grow them ourselves, we source them from carefully chosen suppliers, preferring to buy locally whenever possible. From roasts, salads and soups to casseroles and cakes, Carrots will lend sweetness, texture and colour to an enormous number of recipes.",
+              "images": [
+                  {
+                      "id": 1,
+                      "src": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/il-794xn-433776190-eylc-1566242511.jpg?crop=1.00xw:0.669xh;0,0.259xh&resize=1200:*"
+                  },
+                  {
+                    "id": 2,
+                    "src": "https://bloximages.chicago2.vip.townnews.com/napavalleyregister.com/content/tncms/assets/v3/editorial/a/40/a40266cb-3e82-55d1-9b6c-a6784c26bfee/57325fc79c66e.image.jpg"
+                }
+              ]
+          }
+      ],
+      "meatAndFish": []
+  },
+  "orderList": []
+}
