@@ -1,0 +1,25 @@
+<div class="login-container d-flex flex-column">
+
+  <h3>Log in to personal account</h3>
+
+  <app-input label="Email address">
+    <input placeholder="Email address">
+  </app-input>
+
+  <app-input label="Password">
+    <input placeholder="Password"
+           type="{{showPassword ? 'text' : 'password'}}">
+    <img src="assets/images/{{!showPassword ? 'view' : 'closed-view'}}.svg"
+         alt="view"
+         (click)="showPassword = !showPassword">
+  </app-input>
+
+  <app-button text="Login"
+              [size]="ButtonSize.FULLWIDTH"
+  ></app-button>
+
+  <div class="d-flex justify-content-between">
+    <a routerLink="#">Forgot your password?</a>
+    <a routerLink="#">Registration</a>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+@import "src/assets/styles/variables";
+
+.login-container {
+  height: 466px;
+  background-color: $secondary-400;
+  border-radius: 12px;
+  padding: 60px 40px;
+  gap: 32px;
+
+  h3 {
+    font-family: 600 22px/33px 'Poppins-SemiBold';
+    color: $primary;
+    margin: 0;
+  }
+
+  a {
+    font: 600 12px/18px 'Poppins-SemiBold';
+    text-decoration-line: underline;
+    color: $primary;
+    cursor: pointer;
+  }
+}

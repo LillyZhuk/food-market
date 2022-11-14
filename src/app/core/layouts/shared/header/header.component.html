@@ -33,7 +33,7 @@
 
     <div class="user-info-container d-flex align-items-center">
       <div class="d-flex align-content-center">
-        <button class="log-in-button">Log in</button>
+        <button class="log-in-button" (click)="openLogin()">Log in</button>
       </div>
       <ng-container *ngIf="isUserLoggedIn">
         <img src="assets/images/heart.svg" alt="heart">
